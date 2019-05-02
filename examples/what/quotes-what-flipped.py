@@ -169,4 +169,7 @@ print(reflowed + "\n" + author + "\n")
 # Display the completed canvas on Inky wHAT
 
 inky_display.set_image(img)
+# added an option to flip the image, unquote to activate
+# flipped = img.rotate(180)
+# inky_display.set_image(flipped)
 inky_display.show()
